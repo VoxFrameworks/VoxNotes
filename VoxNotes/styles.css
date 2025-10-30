@@ -1,0 +1,103 @@
+/* --- Global Styles --- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Header Styles --- */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+/* Styling for H1 */
+h1 {
+  font-size: 2.5em; /* Relative to the base font size */
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for H2 */
+h2 {
+  font-size: 2em;
+  color: #555;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Styling for H3 */
+h3 {
+  font-size: 1em;
+  color: #777;
+}
+
+/* Styling for H4 */
+h4 {
+  font-size: 1.2em;
+  color: #999;
+  font-weight: normal;
+}
+
+/* Styling for H5 */
+h5 {
+  font-size: 0.8em; /* Typically the same as base font size */
+  color: #bbb;
+}
+
+/* Styling for H6 */
+h6 {
+  font-size: 0.8em;
+  color: #ddd;
+  text-align: right;
+}
+/* --- View Styles --- */
+.view {
+  position: relative; /* Add this */
+  display: block;
+  margin: 200px auto;
+  background-color: rgb(213, 213, 213);
+  height: 300px;
+  width: 50%;
+    background-image: url('Grid.png'); /* Or .jpg, .svg, etc. */
+  background-repeat: repeat; /* Or repeat-x, repeat-y, no-repeat */
+   border-radius: 10px; /* Rounds all corners with a 10px radius */
+}
+
+.location {
+  position: absolute; /* Change from relative */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Title {
+    position: absolute;
+      top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+.text {
+        position: absolute;
+      top: 75;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.download {
+  position: absolute;
+  top: 107%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  background-color: greenyellow;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  /* Remove fixed width to allow element to grow with its content */
+  /* Add padding for spacing inside the element */
+  padding: 10px 20px;
+}
+
